@@ -28,13 +28,23 @@ nav{
     list-style: none;
 }
 .nav-icon{
-    width:150px;
+    width:200px;
     height:50px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding-top:0.5px;
     padding-bottom:0.5px;
     padding-left:15px;
+    display:flex;
+}
+.nav-img{
+    display:flex;
+    height:20px;
+    width:70px;
+    gap:15px;
+    align-items: center;
+    justify-content: center;
+    padding:15px;
 }
 
 .gamer{
@@ -59,6 +69,77 @@ nav{
     
 
 }
+footer{
+    height:450px;
+    background-color: #0B0223;
+    padding-left:30px;
+    padding-right:30px;
+}
+.footer-title{
+    color: #FFF;
+    font-size:2.2rem;
+    font-weight:700;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:12px;
+    padding-top:40px;
+}
+
+.footer-title img{
+    height:2rem;
+}
+.footer-list{
+    color: #FFF;
+    font-weight: 600;
+    font-size:0.8rem;
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    
+}
+.footer-list li{
+    list-style:none;
+}
+.footer-icons>ul{
+    display:flex;
+    gap:40px;
+    justify-content: center;
+}
+.footer-list li{
+    list-style:none;
+}
+.footer-icons, .footer-policy{
+    margin-top:50px;
+}
+.footer-icons img{
+    height:70%;
+}
+.footer-icons li{
+    list-style:none;
+}
+.footer-policy>ul{
+    display:flex;
+    gap:50px;
+    justify-content: center;
+}
+.footer-policy li{
+    list-style:none;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight :500;
+}
+.footer-content{
+    justify-content: center;
+    margin-top: 1px;
+}
+.footer-content p{
+    font-weight :500;
+    font-size:1rem;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    
+
+}
 @media screen and (max-width:567px) {
     
     nav, .nav{
@@ -67,6 +148,47 @@ nav{
     nav{
         padding-right:15px;
     }
+    footer{
+        width:100%;
+        margin:0 auto;
+    }
+    .footer-list{
+       
+        justify-content: center;
+        flex-wrap:wrap;
+    
+
+    }
+    .footer-policy>ul{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        /* flex-wrap: wrap; */
+    }
+    .footer-list li{
+        margin-top: 0;
+        margin-bottom:0;
+
+    }
+    footer{
+        width:auto;
+        height:auto;
+        margin:0 auto;
+        padding-right:40px;
+        padding-left:40px;
+        padding-bottom:40px;
+        
+    }
+    .footer-content p{
+        text-align: center;
+        padding-top:30px;
+    }
+    .footer-icons>ul{
+        flex-wrap: wrap;
+    }
+    .footer-title{
+        padding-top:10px;
+    }
 }
-@media screen and (min-width:567px) and (max-width:992px){
-}
+/* @media screen and (min-width:567px) and (max-width:992px){
+
+} */
