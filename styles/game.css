@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:wght@400;800&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+main{
+    width:1000px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
+}
+#text-color{
+    color:#FF42A5;
+}
+.nav {
+    display:flex;
+    
+    gap:32px;
+    align-items: center;
+}
+.nav li{
+    list-style: none;
+}
+.nav-icon{
+    width:150px;
+    height:50px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding-top:0.5px;
+    padding-bottom:0.5px;
+    padding-left:15px;
+}
+
+.gamer{
+    display:flex;
+    /* width:16px; */
+    height:40px;
+    
+    align-items: center;
+    justify-content: center;
+    padding-top:25px;
+}
+.gamer img{
+    height:1.5rem;
+}
+.gamer p{
+    text-align: center;
+
+    font-size: 2rem;
+
+    font-weight: 700;
+    margin-left: 10px;
+    
+
+}
+@media screen and (max-width:567px) {
+    
+    nav, .nav{
+        flex-direction: column;
+    }
+    nav{
+        padding-right:15px;
+    }
+}
+@media screen and (min-width:567px) and (max-width:992px){
+}
