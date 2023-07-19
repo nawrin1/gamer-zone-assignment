@@ -170,6 +170,7 @@ header{
 
     font-weight: 600;
     padding-right:50px;
+    padding-top:30px;
 
 
 }
@@ -224,10 +225,11 @@ header{
     list-style: none;
     color: #534C64;
     text-align: start;
+    
 
     font-size: 1rem;
    
-   font-weight: 500;
+    font-weight: 500;
 
     
 }
