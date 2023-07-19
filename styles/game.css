@@ -504,6 +504,7 @@ header{
     }
     .header-content{
         font-size:1.8rem;
+        padding:0 50px 0 0;
     }
     .header-title{
         background-size: 100% 110%;
