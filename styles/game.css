@@ -434,15 +434,19 @@ header{
 }
 .icon div:hover{
     color:#FF42A5;
-    border:1px solid #FF42A5;
+    outline:1px solid #FF42A5;
 }
 .icon div p{
     
     font-size: .7rem;
    
     font-weight: 600;
+    text-align: center;
+    padding-left:10px;
 
 }
+
+
 
 /* .sec-1{
     width:100%;
